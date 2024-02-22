@@ -111,9 +111,9 @@ function getKeyPath(options)
     const defaultKeyPath = `${process.env.HOME}/.near/validator_key.json`;
     let keyPath;
     if (nodeUrl === 'http://localhost:3030') {
-        keyPath = '/Library/WebServer/Documents/nearcore/~/Library/Near1/validator_key.json';
+        keyPath = '/Users/jameswalstonn/.near/Near1/validator_key.json';
     } else if (nodeUrl === 'http://localhost:3031') {
-        keyPath = '/Library/WebServer/Documents/nearcore/~/Library/Near2/validator_key.json';
+        keyPath = '/Users/jameswalstonn/.near/Near1/validator_key.json';
     } else {
         keyPath = defaultKeyPath;
     }
